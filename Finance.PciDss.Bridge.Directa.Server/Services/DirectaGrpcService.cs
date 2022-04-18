@@ -14,6 +14,7 @@ using MyCrm.AuditLog.Grpc.Models;
 using Serilog;
 using SimpleTrading.Common.Helpers;
 using SimpleTrading.GrpcTemplate;
+using SimpleTrading.Payments.ServiceBus.Models;
 using SimpleTrading.ServiceBus.Contracts;
 
 namespace Finance.PciDss.Bridge.Directa.Server.Services
@@ -116,6 +117,21 @@ namespace Finance.PciDss.Bridge.Directa.Server.Services
             }
                 
             return default;
+        }
+
+        public ValueTask<GetDepositStatusGrpcResponse> GetDepositStatusAsync(GetDepositStatusGrpcRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ValueTask<DecodeBridgeInfoGrpcResponse> DecodeInfoAsync(DecodeBridgeInfoGrpcRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
+        public ValueTask<MakeConfirmGrpcResponse> MakeDepositConfirmAsync(MakeConfirmGrpcRequest request)
+        {
+            throw new NotImplementedException();
         }
 
         private ValueTask SendMessageToAuditLogAsync(IPciDssInvoiceModel invoice, string message)

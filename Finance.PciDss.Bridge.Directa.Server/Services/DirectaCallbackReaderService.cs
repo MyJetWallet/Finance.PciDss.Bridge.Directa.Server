@@ -8,6 +8,7 @@ using Flurl;
 using Flurl.Http;
 using Microsoft.Extensions.Hosting;
 using Serilog;
+using SimpleTrading.Payments.ServiceBus.Models;
 using SimpleTrading.ServiceBus.Contracts;
 
 namespace Finance.PciDss.Bridge.Directa.Server.Services

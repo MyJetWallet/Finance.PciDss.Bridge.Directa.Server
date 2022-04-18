@@ -8,8 +8,9 @@ using MyServiceBus.TcpClient;
 using Serilog;
 using SimpleTrading.GrpcTemplate;
 using SimpleTrading.MyLogger;
+using SimpleTrading.Payments.ServiceBus.Deposit;
+using SimpleTrading.Payments.ServiceBus.Models;
 using SimpleTrading.ServiceBus.Contracts;
-using SimpleTrading.ServiceBus.PublisherSubscriber.Deposit;
 using SimpleTrading.SettingsReader;
 
 namespace Finance.PciDss.Bridge.Directa.Server
