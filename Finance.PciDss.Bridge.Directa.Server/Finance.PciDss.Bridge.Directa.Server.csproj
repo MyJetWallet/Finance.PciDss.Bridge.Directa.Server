@@ -15,7 +15,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.15.0" />
     <PackageReference Include="Serilog" Version="2.11.0" />
     <PackageReference Include="SimpleTrading.GrpcTemplate" Version="1.0.4" />
-    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.20.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
     <PackageReference Include="SimpleTrading.Payments.Abstractions" Version="1.0.2" />
     <PackageReference Include="SimpleTrading.Payments.ServiceBus" Version="1.0.2" />
     <PackageReference Include="SimpleTrading.ServiceBus" Version="4.0.17" />
